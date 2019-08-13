@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o  -o ExampleTests ../googletest/googlemock/gtest/libgtest_maind.a ../libExample.a ../googletest/googlemock/gtest/libgtestd.a 

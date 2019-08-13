@@ -1,0 +1,38 @@
+Start testing: Aug 12 17:00 EDT
+----------------------------------------------------------
+1/1 Testing: ExampleTests
+1/1 Test: ExampleTests
+Command: "/Users/an.nguyen@ibm.com/Projects/Example/build/test/ExampleTests"
+Directory: /Users/an.nguyen@ibm.com/Projects/Example/build/test
+"ExampleTests" start time: Aug 12 17:00 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/an.nguyen@ibm.com/Projects/Example/googletest/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ExampleTests
+[ RUN      ] ExampleTests.Haha
+/Users/an.nguyen@ibm.com/Projects/Example/test/ExampleTests.cpp:12: Failure
+Expected equality of these values:
+  Sum(a+b, 2)
+    Which is: 8
+  5
+[  FAILED  ] ExampleTests.Haha (0 ms)
+[----------] 1 test from ExampleTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ExampleTests.Haha
+
+ 1 FAILED TEST
+<end of output>
+Test time =   2.39 sec
+----------------------------------------------------------
+Test Failed.
+"ExampleTests" end time: Aug 12 17:00 EDT
+"ExampleTests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Aug 12 17:00 EDT

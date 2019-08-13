@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/an.nguyen@ibm.com/Projects/Example/Example.cpp
+Example.hpp
+/Users/an.nguyen@ibm.com/Projects/Example/Example.hpp
+
+/Users/an.nguyen@ibm.com/Projects/Example/Example.hpp
+
